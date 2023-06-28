@@ -6,19 +6,24 @@ This is a Java program that implements the Bogo Sort algorithm.Bogo Sort is a so
 
 1. Make sure you have Java installed on your system.
 2. Compile the program using the following command:
-```javac BogoSort.java
+```
+javac BogoSort.java
 
 ```
 3. Run the program using the following command:
-```java BogoSort
+```
+java BogoSort
 
 ```
 ##How it works
+
 The program prompts the user to enter a list of numbers separated by commas. It then converts the input into an array of integers. The Bogo Sort algorithm is then applied to the array until it becomes sorted.
 
 The `shuffle` method randomly shuffles the elements of the array by swapping each element with a random element from the array.
 
 The `isSorted` method checks if the array is sorted in ascending order.
+
 ##Example
+
 Enter a list of numbers: 5,2,8,1,4
 Sorted array: 1 2 4 5 8
