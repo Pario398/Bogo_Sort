@@ -8,12 +8,10 @@ This is a Java program that implements the Bogo Sort algorithm.Bogo Sort is a so
 2. Compile the program using the following command:
 ```
 javac BogoSort.java
-
 ```
 3. Run the program using the following command:
 ```
 java BogoSort
-
 ```
 ##How it works
 
@@ -26,4 +24,5 @@ The `isSorted` method checks if the array is sorted in ascending order.
 ##Example
 
 Enter a list of numbers: 5,2,8,1,4
+
 Sorted array: 1 2 4 5 8
